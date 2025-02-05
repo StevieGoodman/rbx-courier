@@ -8,11 +8,16 @@ version = "0.4.1"
 dependencies = []
 
 [[package]]
+name = "sleitnick/net"
+version = "0.2.0"
+dependencies = []
+
+[[package]]
 name = "sleitnick/table-util"
 version = "1.2.1"
 dependencies = []
 
 [[package]]
-name = "steviegoodman/library-nmae"
+name = "steviegoodman/library-name"
 version = "1.0.0"
-dependencies = [["TableUtil", "sleitnick/table-util@1.2.1"], ["TestEz", "roblox/testez@0.4.1"]]
+dependencies = [["net", "sleitnick/net@0.2.0"], ["TableUtil", "sleitnick/table-util@1.2.1"], ["TestEz", "roblox/testez@0.4.1"]]

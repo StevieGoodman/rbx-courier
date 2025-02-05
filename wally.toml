@@ -1,10 +1,13 @@
 [package]
-name = "steviegoodman/library-name"
-description = "No description provided."
-version = "1.0.0"
+name = "steviegoodman/courier"
+description = "Roblox networking made simple!"
+version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dev-dependencies]
 TestEz = "roblox/testez@0.4.1"
 TableUtil = "sleitnick/table-util@1.2.0"
+
+[dependencies]
+net = "sleitnick/net@0.2.0"
