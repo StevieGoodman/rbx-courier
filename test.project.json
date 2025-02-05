@@ -1,6 +1,8 @@
 {
     "name": "courier",
 
+    "emitLegacyScripts": false,
+
     "tree": {
         "$className": "DataModel",
 
@@ -14,11 +16,16 @@
             },
             "DevPackages": {
                 "$path": "DevPackages"
+            },
+            "TestRunner": {
+                "$path": "tests.client.lua"
             }
         },
         "ServerScriptService": {
             "$className": "ServerScriptService",
-            "$path": "ServerScriptService"
+            "TestRunner": {
+                "$path": "tests.server.lua"
+            }
         }
     }
 }

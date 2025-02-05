@@ -4,10 +4,20 @@ description = "Roblox networking made simple!"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+exclude = ["**"]
+include = [
+    "src",
+    "src/init.lua",
+    "default.project.json",
+    "wally.toml"
+]
 
 [dev-dependencies]
 TestEz = "roblox/testez@0.4.1"
 TableUtil = "sleitnick/table-util@1.2.0"
 
 [dependencies]
-net = "sleitnick/net@0.2.0"
+Net = "sleitnick/net@0.2.0"
+Signal = "sleitnick/signal@2.0.3"
+Trove = "sleitnick/trove@1.5.0"
+Promise = "evaera/promise@4.0.0"

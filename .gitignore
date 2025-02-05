@@ -2,3 +2,4 @@
 /Packages
 .DS_Store
 *.rbxl
+*.rbxl.lock
