@@ -1,0 +1,24 @@
+{
+    "name": "Unnamed Package",
+
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Packages": {
+                "$path": "Packages",
+                "Package": {
+                    "$path": "src"
+                }
+            },
+            "DevPackages": {
+                "$path": "DevPackages"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$path": "ServerScriptService"
+        }
+    }
+}
